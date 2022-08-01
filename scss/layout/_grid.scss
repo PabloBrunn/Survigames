@@ -1,0 +1,47 @@
+.paginaInicio{
+    background-image: linear-gradient(90deg, $coloruno, $colordos, $colortres, $colorcuatro,
+$colorecinco , $colorseis, $colorsiete, $colorocho);
+background-size: 500%;
+animation: fanimado 10s infinite;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "header header header header"
+    "article article article aside"
+    "footer footer footer footer";
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr 2fr 1fr;
+}
+
+nav{
+    grid-area: nav;
+}
+header{
+    grid-area: header;
+}
+article{
+    grid-area: article;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+form{
+    grid-area: form;
+}
+
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

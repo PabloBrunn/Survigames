@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
+
+.paginaInicio {
+  background-image: linear-gradient(90deg, #00B7D4, #505488, #2F3F80, #161569, #000, #5A4894, #A950A1, #DD7CAE);
+  background-size: 500%;
+  -webkit-animation: fanimado 10s infinite;
+          animation: fanimado 10s infinite;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "nav nav nav nav" "header header header header" "article article article aside" "footer footer footer footer";
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 3fr 2fr 1fr;
+}
+
+nav {
+  grid-area: nav;
+}
+
+header {
+  grid-area: header;
+}
+
+article {
+  grid-area: article;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
+
+form {
+  grid-area: form;
+}
+
+@-webkit-keyframes fanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.barraNav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 5px solid #0096FF;
+}
+.barraNav .tituloPrincipal {
+  font-size: 35px;
+  text-decoration: none;
+  color: #0d6efd;
+  padding: 5px;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+.juegoPrincipal {
+  height: 250px;
+  margin: 20px 20px 20px;
+  background-color: black;
+  box-shadow: 1px 1px 10px 10px #000000;
+}
+.juegoPrincipal .projectZomboid {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+.juegoPrincipal .projectZomboid iframe {
+  margin: 10px;
+  height: 230px;
+  width: 60%;
+}
+.juegoPrincipal .projectZomboid h2 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+.juegoPrincipal .projectZomboid p {
+  color: white;
+  margin: 15px;
+  text-align: center;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+aside img {
+  height: 200px;
+  width: 200px;
+}
+
+article {
+  background-color: black;
+  margin: 20px 20px 30px;
+  box-shadow: 1px 1px 10px 10px #000000;
+}
+article h2 {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+article .flexContenedorInicio {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+article .flexContenedorInicio div {
+  background-color: black;
+  padding: 5px;
+  border: 5px solid #0096FF;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+article .flexContenedorInicio div h3 {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+article .flexContenedorInicio div img {
+  width: 220px;
+  height: 200px;
+}
+
+.juegoInicio:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.pieDePagina {
+  background-color: black;
+  border-top: 5px solid #0096FF;
+  color: white;
+}
+.pieDePagina .redSo {
+  font-size: 1rem;
+}
+.pieDePagina .redesSociales {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 0%;
+  padding-left: 0%;
+}
+.pieDePagina .copy {
+  font-size: 1.1rem;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+.barraNav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 5px solid #0096FF;
+        .tituloPrincipal{
+            font-size: 35px;
+            text-decoration: none;
+            color: #0d6efd;
+            padding: 5px;
+            margin-left: 20px;
+            font-weight: bolder;
+        }
+}
+

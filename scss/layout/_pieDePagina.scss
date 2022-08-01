@@ -1,0 +1,20 @@
+.pieDePagina{
+    background-color: black;
+    border-top: 5px solid #0096FF;
+    color: white;
+        .redSo{
+            font-size: 1rem;
+        }
+        .redesSociales{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: left;
+            margin: 0%;
+            padding-left: 0%;
+        }
+        .copy{
+            font-size: 1.1rem;
+        }
+}
