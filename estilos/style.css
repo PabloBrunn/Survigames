@@ -170,6 +170,7 @@ article .flexContenedorInicio div img {
 }
 .pieDePagina .redSo {
   font-size: 1rem;
+  padding-left: 0.5rem;
 }
 .pieDePagina .redesSociales {
   list-style: none;
@@ -178,8 +179,45 @@ article .flexContenedorInicio div img {
   flex-wrap: wrap;
   justify-content: left;
   margin: 0%;
-  padding-left: 0%;
+  padding-left: 0;
+}
+.pieDePagina .telCopy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .pieDePagina .copy {
   font-size: 1.1rem;
+  padding-left: 0.5rem;
+}
+.pieDePagina .telefono {
+  margin-bottom: 0%;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (max-width: 850px) {
+  .paginaInicio {
+    grid-template-areas: "nav nav " "header header" "aside aside" "article article" "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 6fr 2fr 3fr 1fr;
+  }
+  .paginaInicio .juegoPrincipal {
+    height: 93%;
+  }
+  .paginaInicio .projectZomboid {
+    flex-direction: column-reverse;
+  }
+  .paginaInicio .projectZomboid iframe {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .barraNav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .barraNav ul {
+    justify-content: center !important;
+  }
 }/*# sourceMappingURL=style.css.map */

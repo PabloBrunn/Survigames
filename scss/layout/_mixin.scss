@@ -1,0 +1,19 @@
+@mixin contenedorComun {
+    background-color: black;
+    padding: 5px;
+    border: 5px solid #0096FF;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        h3{
+            color: white;
+            text-align: center;
+            font-size: 25px;
+        }
+        img{
+            width: 220px;
+            height: 200px;
+        }
+}

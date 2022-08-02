@@ -4,6 +4,7 @@
     color: white;
         .redSo{
             font-size: 1rem;
+            padding-left: 0.5rem;
         }
         .redesSociales{
             list-style: none;
@@ -12,9 +13,21 @@
             flex-wrap: wrap;
             justify-content: left;
             margin: 0%;
-            padding-left: 0%;
+            padding-left: 0;
+        }
+        .telCopy{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
         }
         .copy{
             font-size: 1.1rem;
+            padding-left: 0.5rem;
         }
+        .telefono{
+            margin-bottom: 0%;
+            padding-bottom: 0.5rem;
+            padding-right: 0.5rem;
+        }
+        
 }

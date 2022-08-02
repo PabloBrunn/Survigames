@@ -1,0 +1,32 @@
+@media (max-width: 850px){
+    .paginaInicio{
+        grid-template-areas: 
+        "nav nav "
+        "header header"
+        "aside aside"
+        "article article"
+        "footer footer";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 6fr 2fr 3fr 1fr;
+        .juegoPrincipal{
+            height: 93%;
+        }
+        .projectZomboid{
+            flex-direction: column-reverse;
+            iframe{
+                width: 100%;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 450px){
+        .barraNav{
+            flex-direction: column;
+            align-items: center;
+            ul{
+                justify-content: center!important;
+            }
+        }
+}

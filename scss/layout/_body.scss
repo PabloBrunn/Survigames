@@ -1,8 +1,8 @@
 .paginaInicio{
     background-image: linear-gradient(90deg, $coloruno, $colordos, $colortres, $colorcuatro,
-$colorecinco , $colorseis, $colorsiete, $colorocho);
-background-size: 500%;
-animation: fanimado 10s infinite;
+    $colorecinco , $colorseis, $colorsiete, $colorocho);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
     width: 100%;
     height: 100vh;
     display: grid;
