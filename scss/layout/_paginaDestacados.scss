@@ -1,0 +1,23 @@
+.novedadesPag{
+    margin: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    .contenedorNovedades{
+        border: 5px solid #0096FF;
+        background-color: black;
+        padding: 1%;
+        margin: 2%;
+        display: flex;
+        img{
+            height: 150px;
+            width: 245px;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            margin: 10px;
+        }
+    }
+}
