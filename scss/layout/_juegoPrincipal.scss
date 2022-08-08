@@ -20,9 +20,7 @@
                     margin: 5px;
                 }
                 p{
-                    color: white;
-                    margin: 15px;
-                    text-align: center;
+                    @extend h2;
                 }
         }
 }

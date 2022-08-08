@@ -200,18 +200,12 @@ form {
   height: 230px;
   width: 60%;
 }
-.juegoPrincipal .projectZomboid h2 {
+.juegoPrincipal .projectZomboid h2, .juegoPrincipal .projectZomboid p {
   color: white;
   text-align: center;
   padding: 10px;
   margin: 5px;
 }
-.juegoPrincipal .projectZomboid p {
-  color: white;
-  margin: 15px;
-  text-align: center;
-}
-
 aside {
   display: flex;
   flex-direction: column;
@@ -228,7 +222,7 @@ article {
   margin: 20px 20px 30px;
   box-shadow: 1px 1px 10px 10px #000000;
 }
-article h2 {
+article h2, article .juegoPrincipal .projectZomboid p, .juegoPrincipal .projectZomboid article p {
   color: white;
   padding: 10px;
   text-align: center;
