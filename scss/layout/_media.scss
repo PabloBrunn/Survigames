@@ -19,25 +19,24 @@
         }
         
     }
-}
 
-.paginaJuegos{
-    grid-template-areas: 
-    "nav nav"
-    "article article"
-    "aside aside"
-    "footer footer";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 2fr 2fr;
-    .contenedorNovedades{
-        flex-direction: column;
-        img{
-            height: 50%;
-            width: 100%;
+    .paginaJuegos{
+        grid-template-areas: 
+        "nav nav"
+        "article article"
+        "aside aside"
+        "footer footer";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 2fr 2fr;
+        .contenedorNovedades{
+            flex-direction: column;
+            img{
+                height: 50%;
+                width: 100%;
+            }
         }
     }
 }
-
 
 
 @media (max-width: 450px){
