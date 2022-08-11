@@ -40,11 +40,25 @@
 
 
 @media (max-width: 450px){
-        .barraNav{
-            flex-direction: column;
-            align-items: center;
-            ul{
-                justify-content: center!important;
-            }
+    .paginaInicio{
+        grid-template-areas: 
+        "nav"
+        "header"
+        "aside"
+        "article"
+        "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 6fr 2fr 3fr 1fr;
+    }
+
+
+        .paginaJuegos{
+            grid-template-areas: 
+            "nav"
+            "article"
+            "aside"
+            "footer";
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 2fr 2fr;
         }
 }
