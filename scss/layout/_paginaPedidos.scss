@@ -12,11 +12,18 @@ animation: fanimado 10s infinite;
     "footer footer footer footer";
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 1fr 2fr 2fr;
-    .tituloPedidos{
-        text-align: center;
-    }
+    
     .divFormulario{
+        box-shadow: 1px 1px 10px 10px #000000;
+        background-color: black;
+        padding: 5%;
         margin: 10%;
+        label{
+            color: white;
+        }
+    }
+    .btn{
+        color: white !important;
     }
 }
 

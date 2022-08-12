@@ -138,11 +138,17 @@ form {
   grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-rows: 1fr 2fr 2fr;
 }
-.pedidosPagina .tituloPedidos {
-  text-align: center;
-}
 .pedidosPagina .divFormulario {
+  box-shadow: 1px 1px 10px 10px #000000;
+  background-color: black;
+  padding: 5%;
   margin: 10%;
+}
+.pedidosPagina .divFormulario label {
+  color: white;
+}
+.pedidosPagina .btn {
+  color: white !important;
 }
 
 .dmcaPagina {
