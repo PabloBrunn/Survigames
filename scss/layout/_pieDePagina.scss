@@ -3,8 +3,7 @@
     border-top: 5px solid #0096FF;
     color: white;
         .redSo{
-            font-size: 1rem;
-            padding-left: 0.5rem;
+            @extend .textFooter;
         }
         .redesSociales{
             list-style: none;
@@ -21,8 +20,7 @@
             justify-content: space-between;
         }
         .copy{
-            font-size: 1.1rem;
-            padding-left: 0.5rem;
+            @extend .textfooter;
         }
         .telefono{
             margin-bottom: 0%;
